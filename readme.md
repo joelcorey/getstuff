@@ -4,7 +4,7 @@
 - Minimal user interface.
 
 ## Tested on
--  Tested working on Antergos Linux.
+- Antergos Linux.
 
 ## Requirements
 - Docker, docker-compose
@@ -14,7 +14,8 @@ In the root directory: "docker-compose up".
 This will fetch all files.
 
 ## Use
-In your web browser of choice navigate to
+In your web browser of choice navigate to:
+
 - localhost/getjob
 - localhost/getjoblocal
 - localhost/getcarlocal
