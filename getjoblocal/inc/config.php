@@ -24,7 +24,16 @@ $categories = array(
   //"wri" // writing editing and translation
   );
 
-$domain = "https://portland.craigslist.org";
+$domains = array(
+	"https://portland.craigslist.org/search/grg/egr",
+	"https://portland.craigslist.org/search/grg/med",
+	"https://portland.craigslist.org/search/grg/web",
+	"https://portland.craigslist.org/search/grg/eng",
+	"https://portland.craigslist.org/search/grg/mar",
+	"https://portland.craigslist.org/search/grg/npo",
+	"https://portland.craigslist.org/search/grg/cpg",
+	"https://portland.craigslist.org/search/grg/crg"
+	);
 
 $keywords = array(
   "angular",
@@ -35,5 +44,11 @@ $keywords = array(
   "linux",
   "nginx",
   "php",
+  "polymer",
+  "pwa", // progressive web app
+  "react",
+  "remote",
+  "telecommute",
+  "vue",
   "web"
 );

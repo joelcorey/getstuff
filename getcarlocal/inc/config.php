@@ -28,8 +28,10 @@ $domain = "craigslist.org";
 
 $keywords = array(
   "240",
+  "crate",
   "datsun",
   "focus",
+  "kit",
   "saab",
   "subaru",
   "supra",

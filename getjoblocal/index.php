@@ -50,16 +50,13 @@ function match_keywords(/*array &*/$search, /*array &*/$keys) { 	// A function t
 return $datamatch;
 }
 
-foreach ($categories as $cat) {
+foreach ($domains as $domain) {
 	
 	// Define random user agent from included user agent array PHP file
 	$useragent = $list[array_rand($list)];
-
-	// Define the URL to scrape
-	$url = $domain . '/search/grg/' . $cat;
 	
 	// Actually start scraping using the PHP cURL library
-	$response_page = crawley($url, $useragent);
+	$response_page = crawley($domain, $useragent);
 
 	// List the city and category everytime we switch cities:
 	$cat_title = scrape_between($response_page, 'class="reset">', '</a>');
@@ -88,7 +85,7 @@ foreach ($categories as $cat) {
 				
 				} else {
 			
-					echo '<pre>' . $date . ' ' . '<a href="' . $domain . $href . '" target="_blank">' . $title . '</a></pre>';
+					echo '<pre>' . $date . ' ' . '<a href="https://portland.craigslist.org' . $href . '" target="_blank">' . $title . '</a></pre>';
 				}
 
 		  } else {
