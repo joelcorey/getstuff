@@ -44,6 +44,8 @@ $domain = "craigslist.org";
 
 $keywords = array(
   "angular",
+  "associate",
+  "entry",
   "front",
   "gis",
   "javascript",
@@ -51,5 +53,11 @@ $keywords = array(
   "linux",
   "nginx",
   "php",
-  "web app"
+  "polymer",
+  "pwa", // progressive web app
+  "react",
+  "remote",
+  "telecommute",
+  "vue",
+  "web"
 );

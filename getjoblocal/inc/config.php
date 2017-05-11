@@ -37,6 +37,8 @@ $domains = array(
 
 $keywords = array(
   "angular",
+  "associate",
+  "entry",
   "front",
   "gis",
   "javascript",
